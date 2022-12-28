@@ -37,5 +37,13 @@ public class Main {
             }
             System.out.println();
         }
+        // оператор ветвления continue
+        int n2 = 10;
+        for (int i = 0; i < n2; i++) {
+            if (i % 2 != 0) {
+                continue;
+            }
+            System.out.print(i + " ");
+        }
     }
 }
